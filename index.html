@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My S-Pen</title>
+  <meta name="description" content="Use your phone or tablet pen as a pressure-sensitive pen for Windows, macOS and Linux.">
+  <meta name="theme-color" content="#E4E5E8" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#25262A" media="(prefers-color-scheme: dark)">
+  <meta property="og:title" content="My S-Pen">
+  <meta property="og:description" content="Your phone's pen, on your computer.">
+  <meta property="og:image" content="assets/icon-256.png">
+  <link rel="icon" type="image/png" href="assets/favicon-64.png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="top">
+    <div class="wrap top-row">
+      <a class="brand" href="#">
+        <img src="assets/icon-256.png" alt="" width="36" height="36">
+        <span>My S-Pen</span>
+      </a>
+      <div class="lang">
+        <button id="langBtn" class="lang-btn" aria-haspopup="listbox" aria-expanded="false">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12,2 A10,10 0 1 1 11.99,2 Z M2,12 H22 M12,2 C7.5,6.5 7.5,17.5 12,22 M12,2 C16.5,6.5 16.5,17.5 12,22"/></svg>
+          <span id="langName">English</span>
+        </button>
+        <ul id="langList" class="lang-list" role="listbox" hidden></ul>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero wrap">
+      <h1 data-i18n="hero_title">Your phone's pen, on your computer</h1>
+      <p class="lead" data-i18n="hero_sub">My S-Pen turns the stylus of your phone or tablet into a pressure-sensitive pen for Windows, macOS and Linux.</p>
+    </section>
+
+    <section class="wrap" id="download">
+      <h2 data-i18n="desktop_title">Computer app</h2>
+      <p class="muted" data-i18n="desktop_sub">Install this on the computer you want to draw on.</p>
+      <div class="grid three">
+        <article class="card dl" data-os="windows">
+          <span class="badge" data-i18n="recommended">For this device</span>
+          <svg class="os" viewBox="0 0 24 24" aria-hidden="true"><path d="M3,5.5 L10.5,4.5 V11.3 H3 Z M11.5,4.4 L21,3 V11.3 H11.5 Z M3,12.3 H10.5 V19.3 L3,18.3 Z M11.5,12.3 H21 V21 L11.5,19.6 Z"/></svg>
+          <h3>Windows</h3>
+          <p class="note" data-i18n="win_note">Windows 10 (1809+) and 11 · x64 and ARM</p>
+          <a class="btn" href="https://github.com/ArmanGH86/myspen/releases/latest/download/MySPen-Windows-Setup.exe" data-i18n="btn_download">Download</a>
+          <p class="hint" data-i18n="win_hint">If SmartScreen appears: More info → Run anyway.</p>
+        </article>
+        <article class="card dl" data-os="mac">
+          <span class="badge" data-i18n="recommended">For this device</span>
+          <svg class="os" viewBox="0 0 24 24" aria-hidden="true"><path d="M16.4,12.6c0-2.4,2-3.6,2.1-3.6-1.1-1.7-2.9-1.9-3.5-1.9-1.5-.2-2.9.9-3.7.9s-1.9-.9-3.2-.8C6.5,7.2,5,8.2,4.1,9.7c-1.8,3.1-.5,7.7,1.3,10.2.8,1.2,1.8,2.6,3.1,2.5,1.3,0,1.7-.8,3.2-.8s1.9.8,3.2.8c1.3,0,2.2-1.2,3-2.4.9-1.4,1.3-2.7,1.3-2.8,0,0-2.8-1.1-2.8-4.6ZM14,5.4c.7-.8,1.1-1.9,1-3.1-1,0-2.2.7-2.9,1.5-.6.7-1.2,1.9-1,3,1.1.1,2.2-.6,2.9-1.4Z"/></svg>
+          <h3>macOS</h3>
+          <p class="note" data-i18n="mac_note">macOS 12+ · Apple Silicon and Intel</p>
+          <a class="btn" href="https://github.com/ArmanGH86/myspen/releases/latest/download/MySPen-macOS.dmg" data-i18n="btn_download">Download</a>
+          <p class="hint" data-i18n="mac_hint">If macOS blocks it: System Settings → Privacy &amp; Security → Open Anyway.</p>
+        </article>
+        <article class="card dl" data-os="linux">
+          <span class="badge" data-i18n="recommended">For this device</span>
+          <svg class="os" viewBox="0 0 24 24" aria-hidden="true"><path d="M12,2c-2.2,0-3.5,1.9-3.5,4.4,0,1.3.3,2.1-.4,3.4C7,11.4,5.6,13.4,5.6,15.6c0,.7.2,1.3.5,1.8-.9.4-2.1.9-2.1,1.9,0,1.3,2,1.3,3.3,1.8,1.1.5,1.8.9,2.9.9.9,0,1.5-.4,1.8-.9.3.5.9.9,1.8.9,1.1,0,1.8-.4,2.9-.9,1.3-.5,3.3-.5,3.3-1.8,0-1-1.2-1.5-2.1-1.9.3-.5.5-1.1.5-1.8,0-2.2-1.4-4.2-2.5-5.8-.7-1.3-.4-2.1-.4-3.4C15.5,3.9,14.2,2,12,2Zm-1.5,4a.8.8,0,1,1-.8.8A.8.8,0,0,1,10.5,6Zm3,0a.8.8,0,1,1-.8.8A.8.8,0,0,1,13.5,6ZM12,8.2l1.4.9L12,10,10.6,9.1Z"/></svg>
+          <h3>Linux</h3>
+          <p class="note" data-i18n="linux_note">x64 and ARM64 · most distributions</p>
+          <a class="btn" href="https://github.com/ArmanGH86/myspen/releases/latest/download/MySPen-Linux.tar.gz" data-i18n="btn_download">Download</a>
+          <p class="hint" data-i18n="linux_hint">Extract, run ./install.sh once, then start My S-Pen.</p>
+        </article>
+      </div>
+
+      <h2 class="mt" data-i18n="mobile_title">Phone and tablet app</h2>
+      <p class="muted" data-i18n="mobile_sub">Install this on the phone or tablet whose pen you want to use.</p>
+      <div class="grid two">
+        <article class="card dl" data-os="android">
+          <span class="badge" data-i18n="recommended">For this device</span>
+          <svg class="os" viewBox="0 0 24 24" aria-hidden="true"><path d="M6,9 H18 V17 A1.5,1.5 0 0 1 16.5,18.5 H15.5 V21 A1,1 0 0 1 13.5,21 V18.5 H10.5 V21 A1,1 0 0 1 8.5,21 V18.5 H7.5 A1.5,1.5 0 0 1 6,17 Z M4,9.5 A1,1 0 0 1 5,10.5 V15 A1,1 0 0 1 3,15 V10.5 A1,1 0 0 1 4,9.5 Z M20,9.5 A1,1 0 0 1 21,10.5 V15 A1,1 0 0 1 19,15 V10.5 A1,1 0 0 1 20,9.5 Z M6.1,8 A6,5 0 0 1 17.9,8 Z M8.2,3 L9.4,5 M15.8,3 L14.6,5"/></svg>
+          <h3>Android</h3>
+          <p class="note" data-i18n="android_note">Android 8+ · Samsung S Pen and other styluses</p>
+          <span class="btn store disabled" aria-disabled="true"><span data-i18n="gp">Google Play</span> · <span data-i18n="soon">coming soon</span></span>
+          <a class="alt" href="https://github.com/ArmanGH86/myspen/releases/latest/download/MySPen-Android.apk" data-i18n="apk_direct">or download the APK directly</a>
+        </article>
+        <article class="card dl" data-os="ios">
+          <span class="badge" data-i18n="recommended">For this device</span>
+          <svg class="os" viewBox="0 0 24 24" aria-hidden="true"><path d="M7.5,2 H16.5 A2,2 0 0 1 18.5,4 V20 A2,2 0 0 1 16.5,22 H7.5 A2,2 0 0 1 5.5,20 V4 A2,2 0 0 1 7.5,2 Z M10.5,4.2 H13.5 M11,19.3 H13"/></svg>
+          <h3>iPhone &amp; iPad</h3>
+          <p class="note" data-i18n="ios_note">iOS / iPadOS 16+ · Apple Pencil</p>
+          <span class="btn store disabled" aria-disabled="true"><span data-i18n="as">App Store</span> · <span data-i18n="soon">coming soon</span></span>
+        </article>
+      </div>
+    </section>
+
+    <section class="wrap">
+      <h2 data-i18n="features_title">What it does</h2>
+      <div class="grid three features">
+        <div class="card feat"><h3 data-i18n="f_pressure_t">Real pressure</h3><p data-i18n="f_pressure">Pressure levels, tilt and the pen button — drawing apps see a real pen tablet.</p></div>
+        <div class="card feat"><h3 data-i18n="f_hover_t">Hover</h3><p data-i18n="f_hover">The cursor follows the pen before it touches the screen.</p></div>
+        <div class="card feat"><h3 data-i18n="f_touch_t">Multi-touch</h3><p data-i18n="f_touch">Fingers work as a touchscreen, with palm rejection while you draw.</p></div>
+        <div class="card feat"><h3 data-i18n="f_conn_t">Wi-Fi, USB or Bluetooth</h3><p data-i18n="f_conn">Connect the way you like — the connection stays stable.</p></div>
+        <div class="card feat"><h3 data-i18n="f_secure_t">Private</h3><p data-i18n="f_secure">Optional password and hidden mode. Your pen data never leaves your local network.</p></div>
+        <div class="card feat"><h3 data-i18n="f_lang_t">Your language</h3><p data-i18n="f_lang">English is built in; other languages download automatically inside the apps.</p></div>
+      </div>
+    </section>
+
+    <section class="wrap">
+      <h2 data-i18n="steps_title">Get started</h2>
+      <ol class="steps">
+        <li class="card"><b>1</b><span data-i18n="s1">Install My S-Pen on your computer and open it.</span></li>
+        <li class="card"><b>2</b><span data-i18n="s2">Install the app on your phone or tablet.</span></li>
+        <li class="card"><b>3</b><span data-i18n="s3">Join the same Wi-Fi and pick your computer in the app — done.</span></li>
+      </ol>
+    </section>
+  </main>
+
+  <footer class="wrap foot">
+    <span>© <span id="year"></span> My S-Pen</span>
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>

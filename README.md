@@ -1,2 +1,5 @@
-# myspen
-My S-Pen - use your phone or tablet pen as a pen for your computer. Website and downloads only (source code is not public).
+# My S-Pen
+
+Website and downloads: https://armangh86.github.io/myspen/
+
+This repository only hosts the website and the installers. The source code is not public.

@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "languages": [
+    {
+      "code": "fa",
+      "name": "فارسی",
+      "english": "Persian",
+      "rtl": true,
+      "version": 1
+    },
+    {
+      "code": "ru",
+      "name": "Русский",
+      "english": "Russian",
+      "rtl": false,
+      "version": 1
+    },
+    {
+      "code": "es",
+      "name": "Español",
+      "english": "Spanish",
+      "rtl": false,
+      "version": 1
+    },
+    {
+      "code": "de",
+      "name": "Deutsch",
+      "english": "German",
+      "rtl": false,
+      "version": 1
+    },
+    {
+      "code": "fr",
+      "name": "Français",
+      "english": "French",
+      "rtl": false,
+      "version": 1
+    },
+    {
+      "code": "zh",
+      "name": "中文（简体）",
+      "english": "Chinese",
+      "rtl": false,
+      "version": 1
+    }
+  ]
+}
