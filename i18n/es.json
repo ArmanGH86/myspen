@@ -3,7 +3,7 @@
   "name": "Español",
   "english": "Spanish",
   "rtl": false,
-  "version": 1,
+  "version": 2,
   "desktop": {
     "app_subtitle": "Usa el lápiz de tu teléfono o tableta como lápiz para tu ordenador",
     "off": "Desactivado",
@@ -180,6 +180,14 @@
     "recent_pcs": "Ordenadores recientes",
     "ios_wifi_only": "En iPhone y iPad la conexión es por Wi-Fi: mantén este dispositivo y el ordenador en la misma red. La dirección IP aparece en la aplicación del ordenador.",
     "ios_local_network": "Cuando se te pregunte, permite que My S-Pen acceda a tu red local.",
-    "ios_pencil_tip": "Funciona mejor con Apple Pencil en iPad (presión, inclinación y, en los iPad compatibles, modo flotante). Los dedos funcionan como pantalla táctil."
+    "ios_pencil_tip": "Funciona mejor con Apple Pencil en iPad (presión, inclinación y, en los iPad compatibles, modo flotante). Los dedos funcionan como pantalla táctil.",
+    "get_pc_title": "Instala la aplicación para ordenador",
+    "get_pc_message": "My S-Pen funciona junto con una aplicación gratuita en tu ordenador. Descárgala para Windows, macOS o Linux desde la web, ábrela y luego conéctate desde aquí.",
+    "open_website": "Abrir la web",
+    "later": "Más tarde",
+    "get_pc_card": "¿Aún no tienes My S-Pen en tu ordenador?",
+    "get_pc_link": "Descárgalo para Windows, macOS o Linux →",
+    "close": "Cerrar",
+    "pc_app_footer": "Aplicación para ordenador: %1$s"
   }
 }

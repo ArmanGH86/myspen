@@ -3,7 +3,7 @@
   "name": "中文（简体）",
   "english": "Chinese",
   "rtl": false,
-  "version": 1,
+  "version": 2,
   "desktop": {
     "app_subtitle": "把手机或平板的手写笔变成电脑的手写笔",
     "off": "关闭",
@@ -180,6 +180,14 @@
     "recent_pcs": "最近使用的电脑",
     "ios_wifi_only": "在 iPhone 和 iPad 上通过 Wi-Fi 连接：请让此设备和电脑处于同一网络。IP 地址显示在电脑端应用中。",
     "ios_local_network": "出现提示时，请允许 My S-Pen 访问本地网络。",
-    "ios_pencil_tip": "在 iPad 上配合 Apple Pencil 效果最佳（支持压感、倾斜，以及在支持的 iPad 上悬停）。手指可作为触摸屏使用。"
+    "ios_pencil_tip": "在 iPad 上配合 Apple Pencil 效果最佳（支持压感、倾斜，以及在支持的 iPad 上悬停）。手指可作为触摸屏使用。",
+    "get_pc_title": "安装电脑端应用",
+    "get_pc_message": "My S-Pen 需要配合电脑上的免费应用使用。请从网站下载 Windows、macOS 或 Linux 版本并打开，然后在这里连接。",
+    "open_website": "打开网站",
+    "later": "稍后",
+    "get_pc_card": "电脑上还没有安装 My S-Pen？",
+    "get_pc_link": "下载 Windows、macOS 或 Linux 版 →",
+    "close": "关闭",
+    "pc_app_footer": "电脑端应用：%1$s"
   }
 }

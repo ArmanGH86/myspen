@@ -3,7 +3,7 @@
   "name": "Deutsch",
   "english": "German",
   "rtl": false,
-  "version": 1,
+  "version": 2,
   "desktop": {
     "app_subtitle": "Der Stift deines Handys oder Tablets als Stift für deinen Computer",
     "off": "Aus",
@@ -180,6 +180,14 @@
     "recent_pcs": "Zuletzt verwendete Computer",
     "ios_wifi_only": "Auf iPhone und iPad läuft die Verbindung über WLAN: Dieses Gerät und der Computer müssen im selben Netzwerk sein. Die IP-Adresse wird in der Computer-App angezeigt.",
     "ios_local_network": "Erlaube My S-Pen bei der Nachfrage den Zugriff auf dein lokales Netzwerk.",
-    "ios_pencil_tip": "Am besten mit dem Apple Pencil auf dem iPad (Druck, Neigung und auf unterstützten iPads Schweben). Finger funktionieren wie ein Touchscreen."
+    "ios_pencil_tip": "Am besten mit dem Apple Pencil auf dem iPad (Druck, Neigung und auf unterstützten iPads Schweben). Finger funktionieren wie ein Touchscreen.",
+    "get_pc_title": "Computer-App installieren",
+    "get_pc_message": "My S-Pen arbeitet mit einer kostenlosen App auf deinem Computer zusammen. Lade sie für Windows, macOS oder Linux von der Website herunter, öffne sie und verbinde dich dann von hier aus.",
+    "open_website": "Website öffnen",
+    "later": "Später",
+    "get_pc_card": "Noch kein My S-Pen auf deinem Computer?",
+    "get_pc_link": "Für Windows, macOS oder Linux herunterladen →",
+    "close": "Schließen",
+    "pc_app_footer": "Computer-App: %1$s"
   }
 }

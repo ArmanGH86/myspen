@@ -3,7 +3,7 @@
   "name": "Français",
   "english": "French",
   "rtl": false,
-  "version": 1,
+  "version": 2,
   "desktop": {
     "app_subtitle": "Le stylet de votre téléphone ou tablette devient le stylet de votre ordinateur",
     "off": "Désactivé",
@@ -180,6 +180,14 @@
     "recent_pcs": "Ordinateurs récents",
     "ios_wifi_only": "Sur iPhone et iPad, la connexion passe par le Wi-Fi : gardez cet appareil et l'ordinateur sur le même réseau. L'adresse IP est affichée dans l'application de l'ordinateur.",
     "ios_local_network": "Lorsque c'est demandé, autorisez My S-Pen à accéder à votre réseau local.",
-    "ios_pencil_tip": "Fonctionne mieux avec l'Apple Pencil sur iPad (pression, inclinaison et, sur les iPad compatibles, survol). Les doigts agissent comme un écran tactile."
+    "ios_pencil_tip": "Fonctionne mieux avec l'Apple Pencil sur iPad (pression, inclinaison et, sur les iPad compatibles, survol). Les doigts agissent comme un écran tactile.",
+    "get_pc_title": "Installez l'application pour ordinateur",
+    "get_pc_message": "My S-Pen fonctionne avec une application gratuite sur votre ordinateur. Téléchargez-la pour Windows, macOS ou Linux sur le site, ouvrez-la, puis connectez-vous d'ici.",
+    "open_website": "Ouvrir le site",
+    "later": "Plus tard",
+    "get_pc_card": "Vous n'avez pas encore My S-Pen sur votre ordinateur ?",
+    "get_pc_link": "Le télécharger pour Windows, macOS ou Linux →",
+    "close": "Fermer",
+    "pc_app_footer": "Application pour ordinateur : %1$s"
   }
 }
